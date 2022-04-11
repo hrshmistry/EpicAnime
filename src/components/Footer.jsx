@@ -9,7 +9,7 @@ const Footer = () => {
                 <InsideFooter className='mx1000-auto'>
                     <div>
                         <Link to="/" style={{ textDecoration: "none" }}>
-                            <h1 className='brand-logo'>Instant Recipes</h1>
+                            <h1 className='brand-logo'>Epic Anime</h1>
                         </Link>
                         <AllSections>
                             <Section>
@@ -29,29 +29,32 @@ const Footer = () => {
                                 </ul>
                             </Section>
                             <Section>
-                                <h4>GET HELP</h4>
+                                <h4>CATEGORIES</h4>
                                 <ul>
-                                    <li>Contact & FAQ</li>
-                                    <li>Orders & Returns</li>
-                                    <li>Instant Food Trade</li>
-                                    <li>Request a Catalog</li>
-                                    <li>Gift Cards</li>
+                                    <li>Watch Together for Older Kids</li>
+                                    <li>Get In On the Action</li>
+                                    <li>International TV Shows</li>
+                                    <li>Young Adult Movies & Shows</li>
+                                    <li>Futuristic Sci-Fi</li>
                                     <li>Registry</li>
-                                    <li>Advertising Inquiries</li>
-                                    <li>Do Not Sell</li>
+                                    <li>Anime Series</li>
+                                    <li>Emotional Movies</li>
+                                    <li>Supernatural TV Shows</li>
+                                    <li>Exciting TV Shows</li>
+                                    <li>International Movies</li>
+                                    <li>Teen TV Shows</li>
+                                    <li>Romantic TV Shows</li>
                                 </ul>
                             </Section>
                             <Section>
-                                <h4>EXPLORE</h4>
+                                <h4>QUICK LINKS</h4>
                                 <ul>
-                                    <li>The Shop</li>
-                                    <li>Recipes</li>
-                                    <li>Food</li>
-                                    <li>Travel</li>
-                                    <li>Gift Cards</li>
-                                    <li>Hotline</li>
-                                    <li>Advertising Inquiries</li>
-                                    <li>Schoolhouse</li>
+                                    <li>Home</li>
+                                    <li>Top Shows</li>
+                                    <li>Top Movies</li>
+                                    <li>Watchlist</li>
+                                    <li>Get Help</li>
+                                    <li>Download App</li>
                                 </ul>
                             </Section>
                         </AllSections>
@@ -61,13 +64,13 @@ const Footer = () => {
                         <h3>Sign up for our newsletter</h3>
                         <div style={{ maxWidth: "300px" }}>In your email, we'll send you our best Anime and TV Shows.</div>
                         <form onSubmit={(e) => { e.preventDefault() }}>
-                            <input type="text" placeholder="hello@instant-recipes.com" />
+                            <input type="text" placeholder="hello@epic-anime.com" />
                             <button>SIGN UP</button>
                         </form>
                     </NewsLetter>
                 </InsideFooter>
             </FooterStyled>
-            <Right>©2022 <b>Instant Racipes</b> Terms | Privacy | Code of Conduct | Accessibility Policy</Right>
+            <Right>©2022 <b>Epic Anime</b> Terms | Privacy | Code of Conduct | Accessibility Policy</Right>
         </>
     )
 }
@@ -89,7 +92,7 @@ const FooterStyled = styled.div`
 const AllSections = styled.div`
    display: flex;
    padding: 2rem 1rem;
-   gap: 5rem;
+   gap: 3rem;
    border-right: 2px solid #334155;
    padding-right: 4rem;
    flex-wrap: wrap;
