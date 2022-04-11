@@ -15,7 +15,7 @@ const Navbar = () => {
                         <li>TV Shows</li>
                         <li>Movies</li>
                         <li>Clips</li>
-                        <li>Community</li>
+                        <li>Characters</li>
                     </ul>
                 </MoreLinks>
 

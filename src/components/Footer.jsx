@@ -52,6 +52,8 @@ const Footer = () => {
                                     <li>Home</li>
                                     <li>Top Shows</li>
                                     <li>Top Movies</li>
+                                    <li>Top Characters</li>
+                                    <li>Clips</li>
                                     <li>Watchlist</li>
                                     <li>Get Help</li>
                                     <li>Download App</li>
