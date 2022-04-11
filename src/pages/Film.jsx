@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import styled from 'styled-components';
+import Cast from '../components/Cast';
 import Loader from '../components/Loader';
 
 const Film = () => {
@@ -64,6 +65,7 @@ const Film = () => {
                                     </li>
                                 </Rest>
                             </RestDetails>
+                            <Cast filmId={id} />
                         </Info>
                     </MainDetails>
                 </>
@@ -74,10 +76,10 @@ const Film = () => {
 
 const Wrapper = styled.div`
     position: relative;
-    margin-bottom: 30rem;
+    margin-bottom: 50rem;
 
     @media (max-width: 850px) {
-        margin-bottom: 60rem;
+        margin-bottom: 70rem;
     }
 
 `;

@@ -55,6 +55,7 @@ const MoreLinks = styled.div`
         list-style: none;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
+        font-size: large;
 
         &:hover {
             color: #0f172a;
