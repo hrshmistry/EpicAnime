@@ -47,7 +47,7 @@ const Films = () => {
                                 <ImgWrap>
                                     <img src={film.image} alt={film.title} />
                                 </ImgWrap>
-                                <h4>{film.title}</h4>
+                                <h3>{film.title}</h3>
                             </Link>
                         </Film>
                     )
@@ -93,7 +93,7 @@ const Film = styled.div`
         color: #334155;
     }
 
-    h4 {
+    h3 {
         text-align: center;
         padding: 0.5rem 1rem;
     }

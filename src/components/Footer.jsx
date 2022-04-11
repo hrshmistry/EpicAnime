@@ -72,7 +72,11 @@ const Footer = () => {
                     </NewsLetter>
                 </InsideFooter>
             </FooterStyled>
-            <Right>©2022 <b>Epic Anime</b> Terms | Privacy | Code of Conduct | Accessibility Policy</Right>
+            <Right>©2022 <b>Epic Anime</b> by
+                <a href="https://hrshmistry.netlify.app/">
+                    Harsh Mistry
+                </a>
+                Terms | Privacy | Code of Conduct | Accessibility Policy</Right>
         </>
     )
 }
@@ -82,6 +86,12 @@ const Right = styled.div`
     background-color: #dce3e7;
     padding: 3rem 1rem 1rem 1rem;
     color: #334155;
+
+    a {
+        color: #334155;
+        padding-inline: 0.5rem;
+        font-weight: bold;
+    }
 `;
 
 const FooterStyled = styled.div`
