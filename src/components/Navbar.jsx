@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { BiSearchAlt } from 'react-icons/bi'
 
 const Navbar = () => {
     return (
@@ -19,9 +20,12 @@ const Navbar = () => {
                     </ul>
                 </MoreLinks>
 
-                <Auth>
-                    Log In
-                </Auth>
+                <NavRight>
+                    <BiSearchAlt />
+                    <Auth>
+                        Log In
+                    </Auth>
+                </NavRight>
             </Nav>
         </NavBackground>
     )
@@ -71,6 +75,24 @@ const Auth = styled.div`
     color: #0f172a;
     font-weight: 600;    cursor: pointer;
     transition: all 0.2s ease-in-out;
+`;
+
+const NavRight = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+        font-size: 1.3rem;
+        cursor: pointer;
+        margin-top: 0.2rem;
+        transition: all 0.2s ease-in-out;
+
+        &:hover { 
+            color: #0f172a;
+            transform: scale(1.1);
+        }
+    }
 `;
 
 export default Navbar
