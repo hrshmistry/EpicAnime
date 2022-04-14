@@ -3,11 +3,11 @@
 #### Action-packed adventures, offbeat comedies, inspirational stories -- these anime movies and TV shows have a style and spirit unlike anything else.
 <br>
 
-<video width="320" height="240" controls>
-  <source src="https://vimeo.com/698983344" type="video/mp4">
-</video>
+## Preview
 
-[Demo Video](https://vimeo.com/698983344 "Blinking LEDs")
+https://user-images.githubusercontent.com/47841863/163363306-5b1f67c3-076b-447a-988c-f6f254437820.mp4
+
+
 
 # how to run this project ?
 
